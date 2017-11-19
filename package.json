@@ -1,5 +1,5 @@
 {
-  "name": "apollo13_test",
+  "name": "apollo13",
   "version": "1.0.0",
   "description": "",
   "main": "./lib/server.js",
@@ -36,14 +36,11 @@
   "author": "Thishan D Pathmanathan",
   "license": "ISC",
   "devDependencies": {
-    "babel-env": "^2.4.1",
     "babel-eslint": "^8.0.1",
     "cross-env": "^5.1.1",
     "eslint": "^4.9.0",
     "eslint-plugin-react": "^7.4.0",
-    "isomorphic-style-loader": "^4.0.0",
-    "npm-run-all": "^4.1.1",
-    "postcss-loader": "^2.0.8"
+    "npm-run-all": "^4.1.1"
   },
   "dependencies": {
     "autobahn": "^17.5.2",
@@ -59,8 +56,6 @@
     "css-loader": "^0.28.7",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "http": "0.0.0",
     "lodash": "^4.17.4",
     "nodemon": "^1.12.1",
     "prop-type": "0.0.1",
