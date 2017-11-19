@@ -1,0 +1,73 @@
+{
+  "name": "apollo13_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "nodemon --exec cross-env BABEL_ENV=server babel-node lib/server.js --watch",
+    "webpack": "webpack -wd",
+    "start": "npm-run-all --parallel webpack dev"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ],
+    "env": {
+      "server": {
+        "plugins": [
+          [
+            "css-modules-transform",
+            {
+              "generateScopedName": "[name]__[local]___[hash:base64:5]",
+              "extensions": [
+                ".css"
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "author": "Thishan D Pathmanathan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^8.0.1",
+    "cross-env": "^5.1.1",
+    "eslint": "^4.9.0",
+    "eslint-plugin-react": "^7.4.0",
+    "isomorphic-style-loader": "^4.0.0",
+    "npm-run-all": "^4.1.1",
+    "postcss-loader": "^2.0.8"
+  },
+  "dependencies": {
+    "autobahn": "^17.5.2",
+    "axios": "^0.17.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-css-modules-transform": "^1.2.8",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.28.7",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "http": "0.0.0",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.12.1",
+    "prop-type": "0.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "socket.io": "^2.0.4",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  }
+}

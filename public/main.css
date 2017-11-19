@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);.styles__header___15JWG{
+  background-color: lightgray;
+  font-family: Roboto;
+}
+
+.styles__red___3sJEG{
+  color: red;
+  text-align: right;
+  padding-right: 35px;
+}
+
+.styles__green___3V49e{
+  color: green;
+  text-align: right;
+  padding-right: 35px;
+}
+
+.styles__rowBlue___2-TAG{
+  background-color: #d3e4ff;
+  text-align: center;
+}
+
+.styles__rowWhite___3pQz8{
+  background-color: white;
+  text-align: center;
+}
+
+.styles__tableHeads___xCXv_{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.styles__tabelBodies___1hwPB{
+  font-family: Roboto;
+}
+
+.styles__tableMain___1sKbC{
+  margin: auto;
+  width: 100%;
+}
+
+.styles__tableStyle___3CbQ-{
+  margin: auto;
+  width: 60%;
+  height: 500px;
+  background-color: #ededed;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.styles__textAlign___2F1Pp{
+  text-align: right;
+  padding-right: 35px;
+}
+
+.styles__LoadingScreen___Ok_Nc{
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 43%;
+  top: 35%;
+  font-size: 30px;
+}
